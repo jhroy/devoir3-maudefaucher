@@ -323,8 +323,12 @@ for plat in plats:
         n+=1
         # print(n, urlplat11)
 
+# Il est maintenant temps de créer mon fichier csv. 
+
 print(liste)
 
 platsveges = open(fichier, "a")
 tofu = csv.writer(platsveges)
 tofu.writerows(liste)
+# Mon fichier csv met une virgule entre chaque caractère, même s'ils sont dans des listes. J'ai cherché sur internet comment les enlever mais je n'ai pas réussi. Ce n'est pas optimal mais j'ai décidé de l'envoyer quand même. Au moins j'ai réussi à générer un fichier csv. Je progresse de travail en travail ! 
+# Bref, devoir réussi, malgré un fichier csv étrange et un très très long script ! Encore une fois, ce devoir était très dur, j'ai rushé pas mal !
